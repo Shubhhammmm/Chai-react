@@ -2,13 +2,15 @@ import { useState } from "react";
 import "./App.css";
 import CounterApp from "./components/CounterApp";
 import Card from "./components/Card";
+import BG_Changer from "./components/BG_Changer";
+import PasswordGenerator from "./components/PasswordGenerator";
 
 function App() {
 
 
   return (
     <>
-    <CounterApp/>
+    {/* <CounterApp/>
     <h2 className="bg-green-500 text-black p-4 rounded-xl mb-4">tailwind test</h2>
     
 {/* <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
@@ -31,8 +33,12 @@ function App() {
     </figcaption>
   </div>
 </figure> */}
-<Card username = "shubhanshu" />
-<Card username="Shubhendra" />
+{/* <Card username = "shubhanshu" /> */}
+{/* <Card username="Shubhendra" />  */}
+
+  {/* <BG_Changer/> */}
+
+  <PasswordGenerator/>
 
 
     </>
