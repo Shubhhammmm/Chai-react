@@ -4,6 +4,8 @@ import CounterApp from "./components/CounterApp";
 import Card from "./components/Card";
 import BG_Changer from "./components/BG_Changer";
 import PasswordGenerator from "./components/PasswordGenerator";
+import CurrencyConverter from "./components/CurrencyConverter";
+
 
 function App() {
 
@@ -38,7 +40,11 @@ function App() {
 
   {/* <BG_Changer/> */}
 
-  <PasswordGenerator/>
+  {/* <PasswordGenerator/> */}
+
+  <CurrencyConverter/>
+
+ 
 
 
     </>
